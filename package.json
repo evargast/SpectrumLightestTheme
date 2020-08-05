@@ -1,16 +1,11 @@
 {
   "name": "spectrum-white-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "White Theme for Adobe React Spectrum",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
-  "files": [
-    "./lib/index.js", "./lib/index.d.ts"
-  ],
   "types": "./lib/index.d.ts",
-  "sideEffects": [
-    "*.css"
-  ],
+
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",
