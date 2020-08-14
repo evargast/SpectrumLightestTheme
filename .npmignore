@@ -1,1 +1,16 @@
+# dependencies
+.npm
 node_modules
+
+# build
+storybook
+
+# test
+coverage
+
+# misc
+.env
+
+.eslintignore
+.eslintrc
+src
