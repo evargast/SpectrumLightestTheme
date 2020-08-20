@@ -4,14 +4,15 @@ module.exports = {
   mode: 'production',
   entry: './src/index.ts',
   output: {
-    path: path.resolve('dist'),
-    filename: 'index.ts',
-    libraryTarget: 'commonjs2',
+    filename: 'index.js',
+    path: path.resolve(__dirname, 'lib'),
+    libraryTarget: 'umd',
+    globalObject: 'this',
   },
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.(sa|sc|c)ss$/,
         use: ['style-loader', 'css-loader'],
         sideEffects: true,
       },
