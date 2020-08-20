@@ -15,6 +15,10 @@ import { Provider } from '@adobe/react-spectrum';
 import WhiteTheme from 'spectrum-white-theme';
 
 function App() {
-  return <Provider theme={WhiteTheme}>Hello React Spectrum!</Provider>;
+  return (
+    <Provider theme={WhiteTheme} colorScheme={'light'}>
+      Hello React Spectrum!
+    </Provider>
+  );
 }
 ```
