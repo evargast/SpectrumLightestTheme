@@ -1,3 +1,5 @@
+# THIS MODULE HAS BEEN MERGED INTO THE [REACT-SPECTRUM LIBRARY](https://www.npmjs.com/package/@react-spectrum/theme-light), PLEASE USE THAT INSTEAD.
+
 # Spectrum White Theme
 
 This theme is intended for [Adobe Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html), it leverages [Adobe's React Spectrum Lightest Theme](https://github.com/adobe/spectrum-css/blob/main/components/vars/css/themes/spectrum-lightest.css) guidelines to provide an accesibile color palette with white as the baseline.

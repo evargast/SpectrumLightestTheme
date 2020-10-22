@@ -1,6 +1,6 @@
 {
   "name": "spectrum-white-theme",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "White Theme for Adobe React Spectrum",
   "main": "./lib/index.js",
   "module": "./lib/index.js",
